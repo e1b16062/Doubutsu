@@ -20,3 +20,9 @@ void mouseReleased() {
   int y = mouseY/SQUARESIZE;
   board.select(x, y);
 }
+
+void draw() {
+  board.draw();
+  komaList.draw();
+  gs.checkWinner();
+}
