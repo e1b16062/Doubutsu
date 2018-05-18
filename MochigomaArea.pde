@@ -1,5 +1,5 @@
 
-.class MochigomaArea extends AbstractArea {
+class MochigomaArea extends AbstractArea {
   MochigomaArea(int posX, int posY, int yoko, int tate) {
     super(posX, posY, yoko, tate);
   }
